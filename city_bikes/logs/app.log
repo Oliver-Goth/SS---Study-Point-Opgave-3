@@ -1,0 +1,21 @@
+2025-10-05 14:23:42.357 | INFO | 36605b98-b7fc-427c-bcac-a915488cfc86 | Attempting to reserve bike
+2025-10-05 14:23:42.358 | INFO | 36605b98-b7fc-427c-bcac-a915488cfc86 | {'@timestamp': '2025-10-05T12:23:42.358892Z', 'level': 'INFO', 'logger_name': 'AUDIT', 'message': 'USER_ACTION', 'action': 'RESERVATION_CREATE', 'user_id': 'u1', 'resource_id': 'b-1', 'ip': '127.0.0.1', 'correlation_id': '36605b98-b7fc-427c-bcac-a915488cfc86', 'log_type': 'audit', 'service': 'city-bikes'}
+2025-10-05 14:23:42.359 | INFO | 36605b98-b7fc-427c-bcac-a915488cfc86 | Reservation 4b50b9d1-cc05-4bb0-8f05-e530da9c848b created successfully
+2025-10-05 14:27:02.302 | INFO | 40bfafc5-c7cd-4d8b-8d28-03601115a592 | Starting rental
+2025-10-05 14:27:02.302 | WARNING | 40bfafc5-c7cd-4d8b-8d28-03601115a592 | Reservation res1 not found or invalid user
+2025-10-05 14:32:50.748 | INFO | efa53601-3a09-41db-9db4-7b419b08d6e5 | User login attempt
+2025-10-05 14:32:50.749 | INFO | efa53601-3a09-41db-9db4-7b419b08d6e5 | {'@timestamp': '2025-10-05T12:32:50.749451Z', 'level': 'INFO', 'logger_name': 'AUDIT', 'message': 'USER_ACTION', 'action': 'LOGIN_SUCCESS', 'user_id': 'u1', 'resource_id': None, 'ip': '127.0.0.1', 'correlation_id': 'efa53601-3a09-41db-9db4-7b419b08d6e5', 'log_type': 'audit', 'service': 'city-bikes'}
+2025-10-05 14:32:50.750 | INFO | efa53601-3a09-41db-9db4-7b419b08d6e5 | User u1 logged in successfully
+2025-10-05 14:33:29.617 | INFO | b9543359-3c11-4008-978c-14865f6398ad | Starting rental
+2025-10-05 14:33:29.617 | WARNING | b9543359-3c11-4008-978c-14865f6398ad | Reservation res1 not found or invalid user
+2025-10-05 14:34:06.570 | INFO | 6cffb1ee-ac9d-4c63-8d34-c18f88866c6a | Attempting to reserve bike
+2025-10-05 14:34:06.570 | INFO | 6cffb1ee-ac9d-4c63-8d34-c18f88866c6a | {'@timestamp': '2025-10-05T12:34:06.570471Z', 'level': 'INFO', 'logger_name': 'AUDIT', 'message': 'USER_ACTION', 'action': 'RESERVATION_CREATE', 'user_id': 'u1', 'resource_id': 'b-1', 'ip': '127.0.0.1', 'correlation_id': '6cffb1ee-ac9d-4c63-8d34-c18f88866c6a', 'log_type': 'audit', 'service': 'city-bikes'}
+2025-10-05 14:34:06.570 | INFO | 6cffb1ee-ac9d-4c63-8d34-c18f88866c6a | Reservation 461cac65-94ff-4c26-a7b2-1ee08772cdb2 created successfully
+2025-10-05 14:34:31.603 | INFO | a7a84ca0-b6e1-47ce-9982-6545acf1fc89 | Starting rental
+2025-10-05 14:34:31.604 | INFO | a7a84ca0-b6e1-47ce-9982-6545acf1fc89 | {'@timestamp': '2025-10-05T12:34:31.604132Z', 'level': 'INFO', 'logger_name': 'AUDIT', 'message': 'USER_ACTION', 'action': 'RENTAL_START', 'user_id': 'u1', 'resource_id': 'b-1', 'ip': '127.0.0.1', 'correlation_id': 'a7a84ca0-b6e1-47ce-9982-6545acf1fc89', 'log_type': 'audit', 'service': 'city-bikes'}
+2025-10-05 14:34:31.604 | INFO | a7a84ca0-b6e1-47ce-9982-6545acf1fc89 | Rental 57aff5a5-7a43-4ce2-b7f0-c43cdcb8b2a0 started successfully
+2025-10-05 14:34:56.919 | INFO | b6d06266-0c83-4392-b826-92329d043daf | Ending rental
+2025-10-05 14:34:56.919 | INFO | b6d06266-0c83-4392-b826-92329d043daf | {'@timestamp': '2025-10-05T12:34:56.919874Z', 'level': 'INFO', 'logger_name': 'AUDIT', 'message': 'USER_ACTION', 'action': 'RENTAL_END', 'user_id': 'u1', 'resource_id': 'b-1', 'ip': '127.0.0.1', 'correlation_id': 'b6d06266-0c83-4392-b826-92329d043daf', 'log_type': 'audit', 'service': 'city-bikes'}
+2025-10-05 14:34:56.920 | INFO | b6d06266-0c83-4392-b826-92329d043daf | Rental 57aff5a5-7a43-4ce2-b7f0-c43cdcb8b2a0 ended successfully
+2025-10-05 14:35:13.012 | INFO | 646bb5d6-a10c-4bb0-853a-d77edbe514b6 | Updating inventory
+2025-10-05 14:35:13.013 | WARNING | 646bb5d6-a10c-4bb0-853a-d77edbe514b6 | Unauthorized admin a1
