@@ -17,7 +17,7 @@ We log debug, info, error and warnings, here are some examples of uses in the co
 - Error: bound_logger.error(f"Bike {bike_id} not found")
 
 ## Rotation and retention
-In our project, log rotation and log retention are configured in the logging_config file, using loguru.
+In our project, log rotation and log retention are configured in the logging_config file, using Loguru.
 | Log Type         | File Path        | Rotation Time        | Retention Period | Format Type       | Purpose                                          |
 |------------------|------------------|-----------------------|------------------|-------------------|--------------------------------------------------|
 | **Audit Log**     | `logs/audit.log` | Every midnight (`00:00`) | 90 days          | JSON (serialized) | Track user actions (e.g. login, reservations)   |
